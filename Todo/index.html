@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+    <div class="container">
+        <div class="t-head">
+            <h1>TODO</h1>
+        </div>
+        <div class="t-body">
+            <form id="todo-form">
+                <input type="text" id="todo-input" placeholder="Todo Girin">
+                <button type="submit" class="btn">Gönder</button>
+            </form>
+        </div>
+        <hr>
+        <div class="t-body">
+            <ul id="todo-list" class="todo-list">
+                <!-- <li class="todo-list-item">
+                    <h3>Lorem, ipsum dolor sit amet consectetur adipisicing.</h3>
+                    <i class="fa-solid fa-xmark"></i>
+                </li> -->
+            </ul>
+        </div>
+    </div>
+
+    <script src="storage.js"></script>
+    <script src="ui.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
